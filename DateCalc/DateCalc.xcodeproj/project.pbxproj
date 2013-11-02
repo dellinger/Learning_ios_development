@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001ED8B0181F2F6300110822 /* DateChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001ED8AF181F2F6300110822 /* DateChooserViewController.m */; };
+		008CC1DB181F0D1500373854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008CC1DA181F0D1500373854 /* Foundation.framework */; };
+		008CC1DD181F0D1500373854 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008CC1DC181F0D1500373854 /* CoreGraphics.framework */; };
+		008CC1DF181F0D1500373854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008CC1DE181F0D1500373854 /* UIKit.framework */; };
+		008CC1E5181F0D1500373854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 008CC1E3181F0D1500373854 /* InfoPlist.strings */; };
+		008CC1E7181F0D1500373854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 008CC1E6181F0D1500373854 /* main.m */; };
+		008CC1EB181F0D1500373854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 008CC1EA181F0D1500373854 /* AppDelegate.m */; };
+		008CC1EE181F0D1500373854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008CC1EC181F0D1500373854 /* Main.storyboard */; };
+		008CC1F1181F0D1500373854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008CC1F0181F0D1500373854 /* ViewController.m */; };
+		008CC1F3181F0D1500373854 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008CC1F2181F0D1500373854 /* Images.xcassets */; };
+		008CC1FA181F0D1500373854 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008CC1F9181F0D1500373854 /* XCTest.framework */; };
+		008CC1FB181F0D1500373854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008CC1DA181F0D1500373854 /* Foundation.framework */; };
+		008CC1FC181F0D1500373854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008CC1DE181F0D1500373854 /* UIKit.framework */; };
+		008CC204181F0D1500373854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 008CC202181F0D1500373854 /* InfoPlist.strings */; };
+		008CC206181F0D1500373854 /* DateCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 008CC205181F0D1500373854 /* DateCalcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008CC1FD181F0D1500373854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008CC1CF181F0D1500373854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008CC1D6181F0D1500373854;
+			remoteInfo = DateCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001ED8AE181F2F6300110822 /* DateChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateChooserViewController.h; sourceTree = "<group>"; };
+		001ED8AF181F2F6300110822 /* DateChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateChooserViewController.m; sourceTree = "<group>"; };
+		008CC1D7181F0D1500373854 /* DateCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008CC1DA181F0D1500373854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		008CC1DC181F0D1500373854 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		008CC1DE181F0D1500373854 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		008CC1E2181F0D1500373854 /* DateCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateCalc-Info.plist"; sourceTree = "<group>"; };
+		008CC1E4181F0D1500373854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		008CC1E6181F0D1500373854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		008CC1E8181F0D1500373854 /* DateCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateCalc-Prefix.pch"; sourceTree = "<group>"; };
+		008CC1E9181F0D1500373854 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		008CC1EA181F0D1500373854 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		008CC1ED181F0D1500373854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		008CC1EF181F0D1500373854 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		008CC1F0181F0D1500373854 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		008CC1F2181F0D1500373854 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		008CC1F8181F0D1500373854 /* DateCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		008CC1F9181F0D1500373854 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		008CC201181F0D1500373854 /* DateCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateCalcTests-Info.plist"; sourceTree = "<group>"; };
+		008CC203181F0D1500373854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		008CC205181F0D1500373854 /* DateCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateCalcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008CC1D4181F0D1500373854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CC1DD181F0D1500373854 /* CoreGraphics.framework in Frameworks */,
+				008CC1DF181F0D1500373854 /* UIKit.framework in Frameworks */,
+				008CC1DB181F0D1500373854 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008CC1F5181F0D1500373854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CC1FA181F0D1500373854 /* XCTest.framework in Frameworks */,
+				008CC1FC181F0D1500373854 /* UIKit.framework in Frameworks */,
+				008CC1FB181F0D1500373854 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008CC1CE181F0D1500373854 = {
+			isa = PBXGroup;
+			children = (
+				008CC1E0181F0D1500373854 /* DateCalc */,
+				008CC1FF181F0D1500373854 /* DateCalcTests */,
+				008CC1D9181F0D1500373854 /* Frameworks */,
+				008CC1D8181F0D1500373854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008CC1D8181F0D1500373854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008CC1D7181F0D1500373854 /* DateCalc.app */,
+				008CC1F8181F0D1500373854 /* DateCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008CC1D9181F0D1500373854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				008CC1DA181F0D1500373854 /* Foundation.framework */,
+				008CC1DC181F0D1500373854 /* CoreGraphics.framework */,
+				008CC1DE181F0D1500373854 /* UIKit.framework */,
+				008CC1F9181F0D1500373854 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		008CC1E0181F0D1500373854 /* DateCalc */ = {
+			isa = PBXGroup;
+			children = (
+				008CC1E9181F0D1500373854 /* AppDelegate.h */,
+				008CC1EA181F0D1500373854 /* AppDelegate.m */,
+				008CC1EC181F0D1500373854 /* Main.storyboard */,
+				001ED8AE181F2F6300110822 /* DateChooserViewController.h */,
+				001ED8AF181F2F6300110822 /* DateChooserViewController.m */,
+				008CC1EF181F0D1500373854 /* ViewController.h */,
+				008CC1F0181F0D1500373854 /* ViewController.m */,
+				008CC1F2181F0D1500373854 /* Images.xcassets */,
+				008CC1E1181F0D1500373854 /* Supporting Files */,
+			);
+			path = DateCalc;
+			sourceTree = "<group>";
+		};
+		008CC1E1181F0D1500373854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				008CC1E2181F0D1500373854 /* DateCalc-Info.plist */,
+				008CC1E3181F0D1500373854 /* InfoPlist.strings */,
+				008CC1E6181F0D1500373854 /* main.m */,
+				008CC1E8181F0D1500373854 /* DateCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		008CC1FF181F0D1500373854 /* DateCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				008CC205181F0D1500373854 /* DateCalcTests.m */,
+				008CC200181F0D1500373854 /* Supporting Files */,
+			);
+			path = DateCalcTests;
+			sourceTree = "<group>";
+		};
+		008CC200181F0D1500373854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				008CC201181F0D1500373854 /* DateCalcTests-Info.plist */,
+				008CC202181F0D1500373854 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008CC1D6181F0D1500373854 /* DateCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008CC209181F0D1500373854 /* Build configuration list for PBXNativeTarget "DateCalc" */;
+			buildPhases = (
+				008CC1D3181F0D1500373854 /* Sources */,
+				008CC1D4181F0D1500373854 /* Frameworks */,
+				008CC1D5181F0D1500373854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateCalc;
+			productName = DateCalc;
+			productReference = 008CC1D7181F0D1500373854 /* DateCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008CC1F7181F0D1500373854 /* DateCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008CC20C181F0D1500373854 /* Build configuration list for PBXNativeTarget "DateCalcTests" */;
+			buildPhases = (
+				008CC1F4181F0D1500373854 /* Sources */,
+				008CC1F5181F0D1500373854 /* Frameworks */,
+				008CC1F6181F0D1500373854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008CC1FE181F0D1500373854 /* PBXTargetDependency */,
+			);
+			name = DateCalcTests;
+			productName = DateCalcTests;
+			productReference = 008CC1F8181F0D1500373854 /* DateCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008CC1CF181F0D1500373854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "David Ellinger";
+				TargetAttributes = {
+					008CC1F7181F0D1500373854 = {
+						TestTargetID = 008CC1D6181F0D1500373854;
+					};
+				};
+			};
+			buildConfigurationList = 008CC1D2181F0D1500373854 /* Build configuration list for PBXProject "DateCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008CC1CE181F0D1500373854;
+			productRefGroup = 008CC1D8181F0D1500373854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008CC1D6181F0D1500373854 /* DateCalc */,
+				008CC1F7181F0D1500373854 /* DateCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008CC1D5181F0D1500373854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CC1F3181F0D1500373854 /* Images.xcassets in Resources */,
+				008CC1E5181F0D1500373854 /* InfoPlist.strings in Resources */,
+				008CC1EE181F0D1500373854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008CC1F6181F0D1500373854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CC204181F0D1500373854 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008CC1D3181F0D1500373854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CC1F1181F0D1500373854 /* ViewController.m in Sources */,
+				008CC1EB181F0D1500373854 /* AppDelegate.m in Sources */,
+				001ED8B0181F2F6300110822 /* DateChooserViewController.m in Sources */,
+				008CC1E7181F0D1500373854 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008CC1F4181F0D1500373854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008CC206181F0D1500373854 /* DateCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008CC1FE181F0D1500373854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008CC1D6181F0D1500373854 /* DateCalc */;
+			targetProxy = 008CC1FD181F0D1500373854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		008CC1E3181F0D1500373854 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008CC1E4181F0D1500373854 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		008CC1EC181F0D1500373854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008CC1ED181F0D1500373854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		008CC202181F0D1500373854 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008CC203181F0D1500373854 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		008CC207181F0D1500373854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		008CC208181F0D1500373854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008CC20A181F0D1500373854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateCalc/DateCalc-Prefix.pch";
+				INFOPLIST_FILE = "DateCalc/DateCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		008CC20B181F0D1500373854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateCalc/DateCalc-Prefix.pch";
+				INFOPLIST_FILE = "DateCalc/DateCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		008CC20D181F0D1500373854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DateCalc.app/DateCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateCalc/DateCalc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DateCalcTests/DateCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		008CC20E181F0D1500373854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DateCalc.app/DateCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateCalc/DateCalc-Prefix.pch";
+				INFOPLIST_FILE = "DateCalcTests/DateCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008CC1D2181F0D1500373854 /* Build configuration list for PBXProject "DateCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008CC207181F0D1500373854 /* Debug */,
+				008CC208181F0D1500373854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008CC209181F0D1500373854 /* Build configuration list for PBXNativeTarget "DateCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008CC20A181F0D1500373854 /* Debug */,
+				008CC20B181F0D1500373854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008CC20C181F0D1500373854 /* Build configuration list for PBXNativeTarget "DateCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008CC20D181F0D1500373854 /* Debug */,
+				008CC20E181F0D1500373854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008CC1CF181F0D1500373854 /* Project object */;
+}
